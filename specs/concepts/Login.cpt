@@ -1,0 +1,9 @@
+
+# Login
+* "18" saniye bekle
+* "com.mobisoft.kitapyurdu:id/btn_ic_header_account" İd'li elementi bul ve tıkla
+* "com.mobisoft.kitapyurdu:id/btn_login" İd'li elementi bul ve tıkla
+* "com.mobisoft.kitapyurdu:id/textview_mail" İd'li elementi bul ve "gulserentestinium@gmail.com" değerini yaz
+* "com.mobisoft.kitapyurdu:id/textview_password" İd'li elementi bul ve "Test1234." değerini yaz
+* "com.mobisoft.kitapyurdu:id/loginButton" İd'li elementi bul ve tıkla
+* "com.mobisoft.kitapyurdu:id/btn_ic_back" İd'li elementi bul ve tıkla

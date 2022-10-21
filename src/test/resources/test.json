@@ -1,0 +1,113 @@
+{
+  "Data": [{
+    "keyword": "AccountButton",
+    "locatorType": "id",
+    "locatorValue": "com.mobisoft.kitapyurdu:id/btn_ic_header_account",
+    "deviceInfo": "android"
+  },
+    {
+      "keyword": "MemberLogin",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/btn_login",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "InputMail",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/textview_mail",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "InputPassword",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/textview_password",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "Login",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/loginButton",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "LoginBack",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/btn_ic_back",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "SearchNavigation",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/navigation_search",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "InputSearch",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/search",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "SearchRoman",
+      "locatorType": "xpath",
+      "locatorValue": "//*[@resource-id='com.mobisoft.kitapyurdu:id/list_content'][1]",
+      "deviceInfo": "android"
+    },
+
+
+    {
+      "keyword": "ProductImage",
+      "locatorType": "xpath",
+      "locatorValue": "//*[@resource-id='com.mobisoft.kitapyurdu:id/productImage']",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "AddToCart",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/addToCartNormalView",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "CartNavigation",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/navigation_cart",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "PlusButton",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/buttonPlus",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "ConfirmBasket",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/lnConfirmBasket",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "SelectAdress",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/addressRelativeLayout",
+      "deviceInfo": "android"
+    },
+
+    {
+      "keyword": "ContinueAddress",
+      "locatorType": "id",
+      "locatorValue": "com.mobisoft.kitapyurdu:id/continueButton",
+      "deviceInfo": "android"
+    }
+  ]}

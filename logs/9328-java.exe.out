@@ -1,0 +1,62 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"gauge-java took 4233milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 4233"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 63022"}
+{"logLevel":"info","message":"Listening on port:63022"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'stepImp.StepImp.clickByid' and 'stepImp.StepImp.clickByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elementi bul ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepImp.StepImp.clickByrandomElement' and 'stepImp.StepImp.clickByrandomElement'"}
+{"logLevel":"debug","message":"Found {}'li elementler arasında rastgele bir tanesine tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepImp.StepImp.sendKeysByxpath' and 'stepImp.StepImp.sendKeysByxpath'"}
+{"logLevel":"debug","message":"Found {} Xpath'li elementi bul ve {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepImp.StepImp.sendKeysByid' and 'stepImp.StepImp.sendKeysByid'"}
+{"logLevel":"debug","message":"Found {} İd'li elementi bul ve {} değerini yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepImp.StepImp.waitForsecond' and 'stepImp.StepImp.waitForsecond'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepImp.StepImp.clickByxpath' and 'stepImp.StepImp.clickByxpath'"}
+{"logLevel":"debug","message":"Found {} Xpath'li elementi bul ve tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'stepImp.StepImp.ControltoElementByid' and 'stepImp.StepImp.ControltoElementByid'"}
+{"logLevel":"debug","message":"Found {} İd'li element {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} Xpath'li elementi bul ve tıkla : public void clickByxpath(String xpath)"}
+{"logLevel":"debug","message":"\t{} Xpath'li elementi bul ve {} değerini yaz : public void sendKeysByxpath(String xpath, String text)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitForsecond(ınt time) throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} İd'li elementi bul ve tıkla : public void clickByid(String id)"}
+{"logLevel":"debug","message":"\t{} İd'li elementi bul ve {} değerini yaz : public void sendKeysByid(String id, String text)"}
+{"logLevel":"debug","message":"\t{} İd'li element {} değerini içeriyor mu kontrol et : public void ControltoElementByid(String id, String text)"}
+{"logLevel":"debug","message":"\t{}'li elementler arasında rastgele bir tanesine tıkla : public void clickByrandomElement(String xpath)"}
+------------------Local de Android Testi Başlıyor-------------
+Eki 21, 2022 10:21:44 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye bekle' using 'class stepImp.StepImp.waitForsecond"}
+{"logLevel":"debug","message":"Executing '{} İd'li elementi bul ve tıkla' using 'class stepImp.StepImp.clickByid"}
+Element tıklandı.
+{"logLevel":"debug","message":"Executing '{} İd'li elementi bul ve tıkla' using 'class stepImp.StepImp.clickByid"}
+Element tıklandı.
+{"logLevel":"debug","message":"Executing '{} İd'li elementi bul ve {} değerini yaz' using 'class stepImp.StepImp.sendKeysByid"}
+gulserentestinium@gmail.comdeğeri yazıldı
+{"logLevel":"debug","message":"Executing '{} İd'li elementi bul ve {} değerini yaz' using 'class stepImp.StepImp.sendKeysByid"}
+Test1234.değeri yazıldı
+{"logLevel":"debug","message":"Executing '{} İd'li elementi bul ve tıkla' using 'class stepImp.StepImp.clickByid"}
+Element tıklandı.
+{"logLevel":"debug","message":"Executing '{} İd'li elementi bul ve tıkla' using 'class stepImp.StepImp.clickByid"}
+Element tıklandı.
+{"logLevel":"debug","message":"Executing '{} İd'li elementi bul ve tıkla' using 'class stepImp.StepImp.clickByid"}
+Element tıklandı.
+{"logLevel":"debug","message":"Executing '{} İd'li elementi bul ve {} değerini yaz' using 'class stepImp.StepImp.sendKeysByid"}
+romandeğeri yazıldı
+{"logLevel":"debug","message":"Executing '{} Xpath'li elementi bul ve tıkla' using 'class stepImp.StepImp.clickByxpath"}
+Element tıklandı.
+{"logLevel":"debug","message":"Executing '{}'li elementler arasında rastgele bir tanesine tıkla' using 'class stepImp.StepImp.clickByrandomElement"}
+Total elements : 0
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

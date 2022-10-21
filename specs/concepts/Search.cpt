@@ -1,0 +1,19 @@
+
+# Search and Add Cart
+* "com.mobisoft.kitapyurdu:id/navigation_search" İd'li elementi bul ve tıkla
+* "com.mobisoft.kitapyurdu:id/search" İd'li elementi bul ve "roman" değerini yaz
+* "//*[@resource-id='com.mobisoft.kitapyurdu:id/list_content'][1]" Xpath'li elementi bul ve tıkla
+* "5" saniye bekle
+* "//*[@resource-id='com.mobisoft.kitapyurdu:id/productImage']"'li elementler arasında rastgele bir tanesine tıkla
+* "5" saniye bekle
+* "com.mobisoft.kitapyurdu:id/addToCartNormalView" İd'li elementi bul ve tıkla
+* "com.mobisoft.kitapyurdu:id/navigation_cart" İd'li elementi bul ve tıkla
+* "5" saniye bekle
+* "com.mobisoft.kitapyurdu:id/buttonPlus" İd'li elementi bul ve tıkla
+* "5" saniye bekle
+* "com.mobisoft.kitapyurdu:id/lnConfirmBasket" İd'li elementi bul ve tıkla
+* "com.mobisoft.kitapyurdu:id/addressRelativeLayout" İd'li elementi bul ve tıkla
+* "com.mobisoft.kitapyurdu:id/continueButton" İd'li elementi bul ve tıkla
+* "5" saniye bekle
+
+
