@@ -1,13 +1,22 @@
 KİTAP YURDU APPİUM TEST
 • Kitap Yurdu uygulaması açılır. 
+
 • Hesabım butonuna basılır.
+
 • Giriş yap tıklanır. 
+
 • Bilgiler girilir. 
+
 • Giriş yapılır.
+
 • Arama butonuna tıklanıp roman yazılır. 
+
 • Rastgele bir kitap seçilir.
+
 • Sepete ekle denir. 
+
 • Adres seçilir. 
+
 
 
 <h3 align="left">Connect with me:</h3>
